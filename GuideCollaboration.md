@@ -1,7 +1,5 @@
 ## Guide à suivre pour évoluer
 
-
-```markdown
 # 🏦 Pipeline de Données Financières Temps Réel
 
 Chaque équipe devra ajouter ici les étapes qu'elle aura fait puis décrire les configurations à mettre en place pour permettre à l'équipe suivante de continuer sans problèmes 
