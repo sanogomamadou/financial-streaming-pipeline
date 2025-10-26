@@ -5,7 +5,7 @@
 Chaque équipe devra ajouter ici les étapes qu'elle aura fait puis décrire les configurations à mettre en place pour permettre à l'équipe suivante de continuer sans problèmes 
 
 ## 🏗️ Architecture à suivre
-
+```bash
 financial-streaming-pipeline/
 ├── docker-compose.yml
 ├── infrastructure/
@@ -58,7 +58,7 @@ financial-streaming-pipeline/
 └── docs/
     ├── architecture.md
     └── deployment_guide.md
-
+```
 ## 🚀 Démarrage Rapide
 
 ### Prérequis
