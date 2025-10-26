@@ -68,7 +68,7 @@ financial-streaming-pipeline/
 
 ### 1. Cloner le projet
 ```bash
-git clone 
+git clone https://github.com/sanogomamadou/financial-streaming-pipeline.git
 ```
 
 ### 2. Démarrer l'infrastructure
