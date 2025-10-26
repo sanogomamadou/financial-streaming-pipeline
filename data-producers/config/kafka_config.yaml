@@ -1,0 +1,33 @@
+kafka:
+  bootstrap_servers: "localhost:9092"
+  topics:
+    stocks:
+      - "stocks.AAPL"
+      - "stocks.GOOGL" 
+      - "stocks.MSFT"
+      - "stocks.TSLA"
+      - "stocks.AMZN"
+    forex:
+      - "forex.EURUSD"
+      - "forex.GBPUSD"
+    crypto:
+      - "crypto.BTCUSD"
+    system:
+      - "market.indicators"
+      - "trading.alerts"
+  
+  consumer:
+    auto_offset_reset: "earliest"
+    enable_auto_commit: true
+    group_id: "market_data_validator"
+    
+  producer:
+    acks: "all"
+    retries: 3
+    batch_size: 16384
+    linger_ms: 10
+
+validation:
+  expected_message_rate: 50  # messages/second
+  max_latency_ms: 1000
+  test_duration_seconds: 60
